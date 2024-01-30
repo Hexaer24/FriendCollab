@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Sprites>
+    <hexaer path="characters/FC2023/hexaer/character" start="idle">
+        <Loop id="idle" path="hexaer" delay="0.1" frames="0" />
+    </hexaer>
+</Sprites>

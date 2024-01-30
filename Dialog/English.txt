@@ -1,0 +1,314 @@
+# NOTES:
+# The # Symbol at the start of a line counts as a Comment. To include in dialog, use a \#
+# The . Symbol will cause a pause unless escaped with \. (ex: Mr. Oshiro has a pause, Mr\. Oshiro does not)
+# Newlines automatically create a Page Break, unless there is an {n} command on the previous line
+# Commands: Anything inside of curly braces {...} is a command and should not be translated.
+
+# Inline Text Commands:
+# {~}wavy text{/~}
+# {!}impact text{/!}
+# {>> x}changes speed at which characters are displayed{>>}
+# {# 000000}this text is black{#} (uses HEX color values)
+# {+MENU_BEGIN} inserts the dialog from the MENU_BEGIN value (in English, "CLIMB")
+# {n} creates a newline, without a page break
+# {0.5} creates a 0.5 second pause
+# {big}this text is large{/big}
+
+# Gameplay Control Commands (should never change)
+# {trigger x} this triggers an in-game event
+# {anchor} controls the visual position of the textbox in-game
+
+#Stuff idk
+modname_FriendCollab2023= FriendCollab
+endscreen_collabname_FriendCollab2023= 2023FC
+
+#Map name attribution
+FriendCollab2023_0_Lobbies= Lobby
+FriendCollab2023_0_lobbies_1_Main= Main
+
+FriendCollab2023_1_Main_TempleMath=TempleMath
+FriendCollab2023_1_Main_pierrr=Forgotten Cliffside
+FriendCollab2023_1_Main_MiseEnBouche=Mise En Bouche
+FriendCollab2023_1_Main_Kevin= Kevin
+FriendCollab2023_1_Main_8bwormhole= 8-bit Wormholes
+FriendCollab2023_1_Main_thePit= The Pit
+FriendCollab2023_1_Main_PlaneCrash= Plane Crash
+FriendCollab2023_1_Main_superDifficult= SuperStructure
+FriendCollab2023_1_Main_Towers= Starlit Spires
+FriendCollab2023_1_Main_thanks= To be continued...
+
+#Pointless Heart
+poem_FriendCollab2023_1_Main_MiseEnBouche_A=Chezpas
+
+#Credits
+FriendCollab2023_1_Main_Kevin_author=by Hexaer
+FriendCollab2023_1_Main_thePit_author=by WhenPigFly
+FriendCollab2023_1_Main_pierrr_author=by Dadalika
+FriendCollab2023_1_Main_MiseEnBouche_author=by Louplink
+FriendCollab2023_1_Main_8bwormhole_author=by Hexaer
+FriendCollab2023_1_Main_PlaneCrash_author=by Louplink
+FriendCollab2023_1_Main_Test1_author=by Atio
+FriendCollab2023_1_Main_superDifficult_author=by Hexaer
+FriendCollab2023_1_Main_Towers_author=by WhenPigFly
+
+#Theo the chad
+hexaer_theo_main=
+[Theo right excited] Heya Madeline!
+[Theo right nailedit] I finally finished all of the levels.
+[Theo right normal] You can look at the notes I left when you finish the level.
+[Theo right yolo] Just approach the light beam.
+[Madeline left distracted] Wait a second...
+[Madeline left distracted] What is a level?
+[Madeline left normal] You mean the different paths?
+[Madeline left normal] And even then, how do you manage to get to the end? You can't dash can you?
+[Theo right normal] No I don't have any of that {~}trans double jump{/~}.
+[Madeline left surprised] But how do you get the {#00FFFF}miniheart{#FFFFFF}?!
+[Theo right excited] Come on it's not that hard!
+[Madeline sad] But there's spikes and falls everywhere!
+[Theo right serious] Madeline...{2} Have you considered going to the left or right of the spikes?
+[Madeline left distracted].
+[Madeline left distracted].
+[Madeline left distracted].
+[Madeline left deadpan] Theo,{1} there is forward and backwards.
+[Theo right thinking].
+[Theo right thinking].
+[Theo right thinking].
+[Theo right serious] Look at the chapter selection Madeline... It's 3d!
+[Theo right excited] You know what?{1} Let's keep it at that. Maybe it's my special thing, just as you have a dash!
+[Madeline left surprised] Theo, you're scaring me.
+
+#Level dialogues
+
+hexaer_kevin_allmighty= 
+[] Greetings, traveler. I shall test thy strength through a gauntlet of your past acomplishments, but not without my own creations.
+[] Thou shall vanquish these trials as the only way to obtain the {#00FFFF}miniheart{#FFFFFF}.
+[] Good luck.
+
+hexaer_kevin_impressed=
+[] I am impressed.
+[] Thou swiftly navigated my gauntlet, so you shall be granted access to the {#00FFFF}miniheart{#FFFFFF}.
+[] Though I must say before you leave,
+[] I will watch you in every level thy explore, for if thou are adventurous enough I will have the joy of meeting thou again.
+[] Goodbye,{2} friend...
+
+TUTORIAL_ReverseSuper= Reverse Super
+TUTORIAL_NeutralDrop= Neutral Drop
+
+hexaer_8bwormhole_Core1= Were... am I?
+hexaer_8bwormhole_Core2= Am I dreaming?
+hexaer_8bwormhole_Core3= The mirror...
+hexaer_8bwormhole_Core4= What happened?
+hexaer_8bwormhole_Core5= Theo was there a second ago
+hexaer_8bwormhole_Core6= I hope he is okay
+hexaer_8bwormhole_Core7= How am I getting out of this?
+hexaer_8bwormhole_Core8= I should've listened...
+hexaer_8bwormhole_Core9= ... and not touched the glass
+hexaer_8bwormhole_Core10= Can't I just wake up
+hexaer_8bwormhole_Core11= Why?
+hexaer_8bwormhole_Core12= THEOOO! ARE YOU THERE?!
+hexaer_8bwormhole_Core13= Part of me...?
+
+hexaer_8bwormhole_badeline1= 
+[Badeline right scoff] I almost thought you forgot me for a second.
+[Madeline left panic] Why does this always happen to me.
+[Badeline right normal] Relax, it's going to be just fine!
+[Madeline left panic] You say that because you can go through mirrors and stuff.
+[Badeline right sigh] Come on we've been through this already.
+[Badeline right scoff] Tell me when I haven't helped you when you were in trouble.
+[Madeline left upset] {!}{big} Farewell...{/!}{/big}
+[Badeline right serious] I still helped you in the end, remember?
+[Madeline left panic] And even then, we are lost in the middle of nowhere through some magical mirror, which broke, and with no way back to join {#008000}Theo{#FFFFFF}.
+[Badeline right concerned] Don't worry, I'll always be by your side.
+[Badeline right scoff] Besides, if this can make you move,{1} I know there is a {#00FFFF}miniheart{#FFFFFF} somewhere around here.
+[Madeline left surprised] Wait this can get us back to the {#FFA500}lobby{#FFFFFF} with {#008000}Theo{#FFFFFF}.
+[Badeline right normal] The {#FFA500}what{#FFFFFF}?
+[Madeline left normal] Idk {#008000}Theo{#FFFFFF} says {#FFA500}it{#FFFFFF} teleports to {~}levels{/~}.
+[Badeline right normal] Oh ok.
+[Badeline right freakA] Then what are we waiting for?
+[Madeline togetherZoom] Let's go!
+
+hexaer_8bwormhole_seeker=
+[Madeline left surprised] Woah, it looks like those things in the {#FF0000}temple{#FFFFFF}!
+
+hexaer_8bwormhole_seeker2=
+[Badeline left freakA] Come on, fight back! Jump on it!
+
+hexaer_8bwormhole_seeker3=
+[Madeline left surprised] It's always in front! Does it teleport?
+
+hexaer_8bwormhole_seeker4=
+[Badeline left angry] This thing really doesn't want you to leave.
+
+hexaer_8bwormhole_seeker5=
+[Badeline worriedAlt] I would recommend not moving, but the {#00FFFF}miniheart{#FFFFFF} is obviously a bit farther.
+
+hexaer_wormhole_ending1=
+[Badeline right scoff] See? We made it fine! I was not even worried in the slightest.
+[Madeline left deadpan] Yeah sure.{0.5}.{0.5}.
+[Madeline left sad] But where is the {#00FFFF}miniheart{#FFFFFF}?
+[Badeline right normal] Don't worry I can still sense it nearby.
+
+hexaer_wormhole_ending2=
+MADELINE!
+
+hexaer_wormhole_ending3=
+[Madeline right surprised] Who is it?
+[TheoMirror left nailedit] It's me {#008000}Theo{#FFFFFF}, look at the mirror!
+
+hexaer_wormhole_ending4=
+[Madeline right surprised] I can't see you.
+[Theomirror left excited] Well I can!
+[Madeline right upset] Don't tell me you got yourself stuck in the mirror too...
+[Theomirror left normal] No don't worry I'm in the {#FFA500}lobby{#FFFFFF}.
+[Theomirror left yolo] And I see you have also found the {#00FFFF}miniheart{#FFFFFF}!
+[Madeline right sadder] No, we didn't even manage that...
+[Theomirror left wtf] It's in the top right of the room, you should see it from here.
+[Theomirror left normal] Maybe it's just hidden for you.
+[Madeline right sad] Maybe you're right I'll look.
+[Theomirror left yolo] Come back quick I just finished writing the notes!
+
+dada_FC_noberry= 
+[Madeline left surprised] No berry?
+
+louplink_PC_diary=
+[] Day 1: The planed crashed in a hidden chasm and a rock slide blocked the exit, unfortunately only a small proportion of the crew survived. We cannot alert the emergency services, so we're going to look for an exit.
+[] Day 4: We can hear twisted screams, something is coming and we don't have long, about three days. At least we found furnitures in the hold, so we have a minimum of comfort while the thing is not here.
+[] Day 5: After having searched everything in this cave we are convinced that there is no exit, so we are going to dig up to the surface.
+[] Day 6: We are starting to see the light, we're almost there. I hope nobody finds this paper, and if you do, don't take your time :{1} run. It knows you're here.
+
+hexaer_superDifficult_hyper= HyperStructure
+hexaer_superDifficult_ultra= UltraStructure
+hexaer_superDifficult_restart= 
+[Madeline left panic] I'm done...
+[Badeline right angry] Worst path design I've seen in a while. Who made this crap anyways?
+[Madeline left sadder] It was written by {#6a0dad}Hexaer{#FFFFFF} on the construction sign, but does it really matter now?
+[Badeline left freakB] I am going to kindly express my feelings to this idiot right now...
+[Badeline right sigh] But don't worry I won't leave you alone like that.
+[Madeline left sad] What's the point, {#008000}Theo{#FFFFFF} keeps explaining he is through some {~} magical window {/~}.
+[Badeline right angry] First step is getting out of here,
+[Badeline right serious] And then I can bash his skull.
+[Badeline right upset] Thankfully, if he wants to cheat, we can cheat too.
+[Madeline left sad] What do you mean?
+[Badeline right normal] Come on Madeline, let's fly...
+
+#Starlit Spires lesgooooooo
+pig_Towers_sign1=
+(A worn down sign. You can barely make out a few letters)
+(TOW R  F {# 2289F0}WI DOM{#})
+
+pig_Towers_sign2=
+(Tough hard to see, there are a few letters etched in the wooden sign)
+(TO ER O  {# D91431}STRENG H{#})
+
+pig_Towers_sign3=
+(Despite the damage around it, this sign is in perfect shape. It reads :)
+(TOWER OF {# E21CE0}DETERMINATION{#})
+
+pig_Towers_book=
+(The book on the table is open. A passage is circled in red)
+DOWN, RIGHT, UP, LEFT, LEFT, UP, LEFT
+[MADELINE left sad] Seriously ?{0.3} A code ?{0.3} [MADELINE left distracted]I guess I better remember it\.\.\.
+
+pig_Towers_piano=
+(The piano is rusty and can no longer make music)
+(The sheet music, however, is still in place. It appears to be of an old nursery rhyme)
+THOU WHO SEEKEST THE GREAT ONE {n}
+AMONGST THOSE TOWERS OF OLD {n}
+3 VIRTUES MUST THOU SEEK
+GATHER ALL THINE WISDOM {n}
+AND SEARCH THE HIDDEN LIBRARY {n}
+REMEMBER AND HEED IT'S INSTRUCTIONS
+GATHER ALL THINE STRENGTH {n}
+BE NOT BLINDED  BY THE END APPROACHING {n}
+AND REACH THE BOTTOM OF THE THIRD TOWER
+GATHER ALL THINE DETERMINATION {n}
+THE SECRET CODE MUST BE ENTERED {n}
+STAND STILL, DASH AND ALL WILL BE REVEALED
+[MADELINE left distracted] Is this supposed to be a song ?{1}[MADELINE left upset] It doesn't even rhyme\.\.\.
+
+
+#Finished levels
+hexaer_kevinFinished=
+[Theo right normal] Welp...
+[Theo right wtf] That was certainly one of the levels of all time.
+[Theo right thinking] I think you can guess that was the first level of someone.
+[Theo right thinking] Definitly not the dude that wrote these dialogues...
+[Theo right excited] Anyways, {#6a0dad}Hexaer{#FFFFFF} told me this attempt of a level was deemed the hardest until Forgotten Cliffside arrived.
+[Theo right normal] Even if it was a first, I really hope you somewhat enjoyed it.
+[Theo right excited] And go back and get that moonberry if you haven't already! Awesome and custom music is ready for you!
+[Theo right yolo] Also you better follow {#ffa640}Dadalika{#FFFFFF} on SoundCloud for making these amazing masterpieces.
+
+hexaer_8bwormhole=
+[Theo right excited] Wow! Special magic portal!
+[Theo right nailedit] Gotta be honest...{0.5}That was really fun!
+[Theo right excited] I saw the seeker thing, but it didn't go after me.
+[Theo right thinking] I can somehow guess that it went crazy when it saw you.
+[Theo right normal] This level is the first implementation of dialogue!
+[Theo right nailedit] (TotallyNotRippedFromTheEverestWebsite{n}BecauseTheCoderIsAssAtActuallyCoding)
+[Theo right wtf] I really do wonder how the warp mechanic works.
+[Theo right normal] {#6a0dad}Hexaer{#FFFFFF} didn't know either, so he just stole the room from core.
+[Theo right thinking] Kinda weird it only works with a certain height.
+
+louplink_MEB=
+[Theo right wtf] What a hell to navigate...
+[Theo right normal] You're lucky you didn't have to face the V1 weird respawns.
+[Theo right normal] This will be probably the first and last level of {#008000}Louplink{#FFFFFF} since he doesn't play Celeste much.
+[Theo right thinking] Well I know he understands English and he probably is enventually going to read this, {0.5}so let's just say his level design is {0.5}. {0.5}. {0.5}. {~}interesting.{/~}
+[Theo right nailedit] He was also to lazy to create an icon so he just took one from the internet.
+[Theo right excited] Even if the level is only kinda flawed, {#6a0dad}Hexaer{#FFFFFF} is really grateful that {#008000}Louplink{#FFFFFF} put effort into this.
+[Theo right yolo] He even took the time to place the allmighty {#0f056b}Kevin{#FFFFFF} in his level!
+[Theo right nailedit] No not the one you use.
+
+dadalika_FCFinished= 
+[Theo right yolo] No way! Well done Madeline!!
+[Theo right excited] A hard map on the board!
+[Theo right normal] It was the hardest map for a while, but never will a map have really the title of the hardest.
+[Theo right nailedit] Since, yknow, they make new maps a lot.
+[Theo right normal] {#ffa640}Dadalika{#FFFFFF} has quite the talent when making hard maps, and he improved a lot by finishing them without savestates.
+[Theo right normal] Usually it's {#6a0dad}Hexaer{#FFFFFF} that checks if the level is possible.
+[Theo right excited] Also did you notice the awesome background!
+[Theo right thinking] Glad these makeshift devs finally discovered how stylegrounds work.
+[Theo right excited] Fun fact : {#ffa640}Dadalika{#FFFFFF} loves to yeet you into spikes with springs!
+[Theo right thinking] I hope I won't have to face this when he makes another level, because they surprise me even if I can go around them.
+
+pig_thePit=
+[Theo right excited] Wow finally some none edgy moonberry stuff.
+[Theo right thinking] Nowadays mapmakers only think about making a super secret moonberry
+[Theo right wtf] ...looking at you {#6a0dad}Hexaer{#FFFFFF} and {#ffa640}Dadalika{#FFFFFF}.
+[Theo right nailedit] Not to say it wasn't difficult, it still gave me trouble to beat given there's hardly any place to stand on besides the places {#ff8c00}WhenPigFly{#FFFFFF} intended it.
+[Theo right excited] Luckily the almighty {#0f056b}Kevin{#FFFFFF} accepted to take me around the place, so I could document everything!
+[Theo right normal] I mean there's even a complete room where {#0f056b}Kevin{#FFFFFF} guides you with his mighty {~}high five{/~}
+[Theo right nailedit] ... which will crush you against the wall,
+[Theo right excited] But at this point it's just a skill issue.
+[Theo right normal] .
+[Theo right excited] Oh wait, {#ff8c00}WhenPigFly{#FFFFFF} is sending a discord message to {#6a0dad}Hexaer{#FFFFFF}.
+[Theo right serious] Oh my f*cking god, he wanted to add a moonberry when I'm writing this message
+[Theo right wtf] What does he mean he was "out of budget"..., they're litteraly doing this for free without earning money?!
+
+louplink_planeCrash=
+[Theo right excited] Wake up babe, new level just dropped.
+[Theo right nailedit] {#008000}Louplink{#FFFFFF} did the unthinkable,
+[Theo right excited] Actually showing interest in this fun project!
+[Theo right normal] Anyways, it's safe to say he is never gonna make a level again since he left the discord group.
+[Theo right thinking] Your probably wondering how I know this,
+[Theo right serious] It's the 3d Madeline.
+[Theo right normal] I look out the window and I see everything.
+[Theo right thinking] Not even Monika or Whiteface could see this far.
+[Madeline surprised] What the heck is he talking about!
+
+hexaer_superDifficult=
+[Theo right nailedit] What an experience!
+[Theo right excited] I can feel the effort in this level, the art, the plot!
+[Theo right normal] The scripted fall, the advanced move block stuff.
+[Theo right thinking] It does look like it only gets better.
+[Theo right normal] {#6a0dad}Hexaer{#FFFFFF} would like to credit {#c597e8}Laly{#FFFFFF} for the awesome art, even if it was just a flower,
+[Theo right wtf] And like 94 frames of petals falling.
+[Theo right normal] But every single other art comes from {#6a0dad}Hexaer{#FFFFFF} in this level.
+[Theo right thinking] Usually he sucks at drawing, but I guess the tilesets and signs are cool.
+[Theo right excited] I do hope you did not smash your screen when you fell, because the glorified ending was super cool.
+
+thanks_ending=
+[Theo right normal] Finally, we have done everything...
+[Theo right nailedit] There's really nothing more to it.
+[Theo right thinking] Kinda sad there's no levels to play anymore.
+[Theo right normal] I mean you can go back and look for the berries if you want

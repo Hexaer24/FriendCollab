@@ -1,0 +1,39 @@
+<decals>
+<!--superDifficult-->
+  <decal path="FC2023/hexaer/signs/signLeft">
+    <depth value="2000" />
+  </decal>
+  <decal path="FC2023/laly/flowers/LalyBP">
+    <depth value="2000" />
+  </decal>
+  <decal path="FC2023/laly/starSmall">
+    <depth value="10000" />
+    <animationSpeed value="8"/>
+  </decal>
+  <decal path="FC2023/laly/starMedium">
+    <depth value="10000" />
+    <animationSpeed value="8"/>
+  </decal>
+  <decal path="FC2023/laly/starBig">
+    <depth value="10000" />
+    <animationSpeed value="8"/>
+  </decal>
+  <decal path="FC2023/laly/petals/petalSlow">
+    <depth value="2000" />
+    <animationSpeed value="6"/>
+  </decal>
+  <decal path="FC2023/laly/petals/petal">
+    <depth value="2000" />
+    <animationSpeed value="11"/>
+  </decal>
+  <decal path="FC2023/laly/petals/petalFast">
+    <depth value="2000" />
+    <animationSpeed value="16"/>
+  </decal>
+  <decal path="FC2023/hexaer/signs/noJumpSign">
+    <depth value="2000" />
+  </decal>
+    <decal path="FC2023/laly/flowers/roseRed">
+    <depth value="-20000" />
+  </decal>
+</decals>
