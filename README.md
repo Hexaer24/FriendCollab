@@ -1,1 +1,1 @@
-A collab made by friend for the hit video game celeste!
+A collab made by a silly bunch of friends for the hit video game celeste!
