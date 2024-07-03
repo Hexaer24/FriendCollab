@@ -1,1 +1,2 @@
-A collab made by a silly bunch of friends for the hit video game celeste!
+# FriendCollab2023
+Replace with your mod's readme!

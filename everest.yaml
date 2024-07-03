@@ -1,4 +1,5 @@
-- Name: FriendCollab2023
+- DLL: bin/FriendCollab2023.dll
+  Name: FriendCollab2023
   Version: 1.1.0
   Dependencies:
     - Name: CollabUtils2
@@ -7,8 +8,10 @@
       Version: 1.17.2
     - Name: Everest
       Version: 1.3876.0
+    - Name: EverestCore
+      Version: 1.4673.0
     - Name: ExtendedVariantMode
-      Version: 0.27.0
+      Version: 0.37.3
     - Name: FlaglinesAndSuch
       Version: 1.6.4
     - Name: FrostHelper

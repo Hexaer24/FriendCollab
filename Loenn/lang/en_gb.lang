@@ -1,0 +1,4 @@
+mods.FriendCollab2023.name=FC2023
+
+entities.FC2023/CustomFireball.placements.name.fireball= Pretty cool fireball!
+entities.FC2023/MyFireball.placements.name.fireball=Fireball I said
