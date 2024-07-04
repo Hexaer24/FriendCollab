@@ -4,7 +4,7 @@ using Monocle;
 using MonoMod;
 
 
-namespace Celeste.Mod.FriendCollab2023.Entities
+namespace Celeste.Mod.FriendCollab.Entities
 {
     [TrackedAs(typeof(FireBall))]
     [CustomEntity("FC2023/CustomFireball")]
